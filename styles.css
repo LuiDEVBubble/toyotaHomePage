@@ -9,17 +9,20 @@
     position: absolute;
     top: 50px;
     left: 30%;
+    
 
 }
 #topGrid{
     display: grid;
     place-items: center;
-    border: solid;
+   
 }
 #secondGrid{
     height: 480px;
-    border: solid;
-    position: relative;
+    
+    /* position: relative; */
+   
+    position: relative; 
 }
 
 #centerHeader{
@@ -27,6 +30,8 @@
     top: 35%;
     width: 100%;
     text-align: center;
+
+    
 }
 #lastGrid
 {
@@ -37,7 +42,7 @@
 
 }
 table{
-    border: solid;
+   
     border-spacing: 40px 2px;
     margin-left: auto;
     margin-right: auto;
@@ -48,8 +53,19 @@ a{
     color: #CC0000;
 }
 #homepageCars{
-    border: solid;
+    
     position: absolute;
     bottom: 18%;
     width: 100%;
+}
+
+#lastElement
+{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+    
+
+    
 }
