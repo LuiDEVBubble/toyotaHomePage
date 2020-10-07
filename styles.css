@@ -27,6 +27,7 @@
 
 #centerHeader{
     position: absolute;
+    color: black;
     top: 35%;
     width: 100%;
     text-align: center;
@@ -67,5 +68,12 @@ a{
     text-align: center;
     
 
+    
+}
+
+#carInformation{
+    position: absolute;
+    top: 85%;
+    width: 100%;
     
 }
