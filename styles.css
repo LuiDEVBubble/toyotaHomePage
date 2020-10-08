@@ -1,3 +1,4 @@
+/* Universal style for each page */
 #redBanner{
     position: relative; 
     width: 100%;
@@ -9,21 +10,22 @@
     position: absolute;
     top: 50px;
     left: 30%;
+    
 
 }
 #topGrid{
     display: grid;
     place-items: center;
-    border: solid;
+   
 }
 #secondGrid{
     height: 480px;
-    border: solid;
-    position: relative;
+    position: relative; 
 }
 
 #centerHeader{
     position: absolute;
+    color: black;
     top: 35%;
     width: 100%;
     text-align: center;
@@ -33,11 +35,9 @@
     position: absolute;
     bottom: 45%;
     width: 100%;
-    
-
 }
-table{
-    border: solid;
+.categoryTable{
+   
     border-spacing: 40px 2px;
     margin-left: auto;
     margin-right: auto;
@@ -47,9 +47,48 @@ a{
     text-decoration: solid;
     color: #CC0000;
 }
+a.blackAnchor
+{
+    text-decoration: solid;
+    color: black;
+}
+
 #homepageCars{
-    border: solid;
+    
     position: absolute;
     bottom: 18%;
     width: 100%;
+}
+
+#carInformation{
+    
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    
+}
+
+
+/*Specific to Home Page  */
+#lastElement
+{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* cars & Minivans ... */
+
+td{
+    padding: 0 35px;
+}
+
+
+#crossoverTable, #crossoverTable td {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
 }
